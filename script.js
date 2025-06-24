@@ -1,3 +1,6 @@
+var counter = 0;
+
 function changeText() {
-  document.getElementById("dynamic-text").innerText = "You clicked the button!";
+  counter = counter + 1;
+  document.getElementById("count").innerText = counter;
 }
