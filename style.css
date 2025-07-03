@@ -1,15 +1,93 @@
 body {
   font-family: sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #A99F96;
   padding: 20px;
 }
  
 h1 {
-  color: #2b7a78;
+  color: #DDA77B;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 25px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50px;
 }
- 
-a {
-  color: #3aafa9;
-  text-decoration: none;
+
+p {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #DDA77B;
+  margin-top: 35px;
 }
+
+hr {
+  width: 600px;
+  height: 5px;
+  background-color: #945D5E;
+  border-radius: 10px;
+}
+
+#button_container {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+#footer {
+  background-color: #71677C;
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+/* INCREMENT BUTTON */
+#increment {
+  background: linear-gradient(90deg, #945D5E, #DDA77B);
+  background-size: 200% 100%;
+  width: 100px;
+  height: 75px;
+  border-color: #DDA77B;
+}
+
+#increment:hover {
+  box-shadow: 5px 5px 10px 0px #AAFCB8;
+  background-position: 100% 0;
+}
+
+/* RESET BUTTON */
+#reset {
+  background: linear-gradient(90deg, #DDA77B, #945D5E);
+  width: 100px;
+  height: 75px;
+  border-color: #DDA77B;
+}
+
+#reset:hover {
+  box-shadow: 5px 5px 10px 0px #D00000;
+}
+
+
+#count {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+  margin-top: 60px;
+}
+
+
+
+
+
+#main {
+  width: 800px;
+  height: 500px;
+  background-color: #71677C;
+  border-radius: 10px;
+  border-color: maroon;
+  margin-left: auto;
+  margin-right: auto;
+}
+
