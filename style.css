@@ -13,3 +13,7 @@ a {
   color: #3aafa9;
   text-decoration: none;
 }
+
+#reset-button {
+    background-color : red;
+}
