@@ -44,7 +44,6 @@ hr {
   border-radius: 20px;
 }
 
-/* INCREMENT BUTTON */
 #increment {
   background: linear-gradient(90deg, #945D5E, #DDA77B);
   background-size: 200% 100%;
@@ -58,7 +57,6 @@ hr {
   background-position: 100% 0;
 }
 
-/* RESET BUTTON */
 #reset {
   background: linear-gradient(90deg, #DDA77B, #945D5E);
   width: 100px;
@@ -70,16 +68,11 @@ hr {
   box-shadow: 5px 5px 10px 0px #D00000;
 }
 
-
 #count {
   font-family: 'Courier New', Courier, monospace;
   font-size: 100px;
   margin-top: 60px;
 }
-
-
-
-
 
 #main {
   width: 800px;
